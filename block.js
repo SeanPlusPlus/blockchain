@@ -44,7 +44,7 @@ class Blockchain {
         // 4 and below are super quick 
         // at 5, takes like 20 or so seconds for a couple blocks
         // and at 6, takes like around 45 seconds per block
-        this.difficulty = 5; 
+        this.difficulty = 4; 
     }
 
     getLastBlock() {
