@@ -1,8 +1,17 @@
 # Blockchain
 
-Simple JS blockchain based on https://dev.to/freakcdev297/creating-a-blockchain-in-60-lines-of-javascript-5fka
+Simple JS blockchain based on [this tutorial](https://dev.to/freakcdev297/creating-a-blockchain-in-60-lines-of-javascript-5fka)
 
 ### Dev
+
+First get the repo
+
+```
+git clone git@github.com:SeanPlusPlus/blockchain.git
+cd blockchain
+```
+
+Then create some blocks on our blockchain 
 
 ```
 node index.js
