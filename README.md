@@ -9,3 +9,7 @@ node index.js
 ```
 
 Update `this.difficulty` in the *Blockchain* class to see how mining works
+
+### Example Output
+
+![output](https://i.imgur.com/YYArf1h.png)
