@@ -24,7 +24,7 @@ class Block {
         // Basically, it loops until our hash starts with 
         // the string 0...000 with length of <difficulty>.
         var arr = Array(difficulty + 1).join("0");
-        console.log(arr);
+        // console.log(arr);
         while (!this.hash.startsWith(arr)) {
             // We increases our nonce so that we can get a whole different hash.
             this.nonce++;
