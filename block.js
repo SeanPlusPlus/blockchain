@@ -39,7 +39,11 @@ class Blockchain {
     constructor() {
         // Create our genesis block
         this.chain = [new Block(Date.now().toString(), { genesis: true })];
-        // at 5, takes like 20 or so seconds to mine a couple blocks on my macbook
+
+        // ... to mine a couple blocks on my macbook:
+        // 4 and below are super quick 
+        // at 5, takes like 20 or so seconds for a couple blocks
+        // and at 6, takes like around 45 seconds per block
         this.difficulty = 5; 
     }
 
